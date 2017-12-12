@@ -1,5 +1,5 @@
 <div>
   <% @students.each do |s| %>
-    <div><%= link_to s.to_s, students_path(s) %></div>
+    <div><%= link_to s.to_s, student_path(s) %></div>
   <% end %>
 </div>
