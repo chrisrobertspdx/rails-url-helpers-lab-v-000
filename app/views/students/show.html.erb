@@ -4,4 +4,5 @@
   <p>This student is currently active.</p>
 <% else %>
   <p>This student is currently inactive.</p>
+  <p><%= link_to "Activate", activate_student_path(s) %></p>
 <% end %>
